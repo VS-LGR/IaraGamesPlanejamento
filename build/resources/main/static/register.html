@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cadstyle.css">
+    <title>Cadastro</title>
+</head>
+<body>
+<div class="main-cad">
+    <div class="right-cad">
+        <div class="card-cad">
+            <form id="userFormRegister">
+                <h1>CADASTRO</h1>
+                <div class="textfield">
+                    <input type="hidden" id="userId">
+                    <input type="text" name="name" placeholder="Nome" id="name" required>
+                </div>
+                <div class="textfield">
+                    <input type="text" name="username" placeholder="Usuário de login" id="username" required>
+                </div>
+                <div class="textfield">
+                    <input type="email" name="email" placeholder="E-mail" id="email" required>
+                </div>
+                <div class="textfield">
+                    <input type="password" name="password" placeholder="Senha" id="password" required>
+                </div>
+                <div class="textfield">
+                    <input type="password" name="confirmPassword" placeholder="Confirmar senha" id="passConfirm" required>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="age-check" name="age-check" required>
+                    <label for="age-check">Eu tenho mais de 18 anos e concordo com os <a href="#">termos e condições</a>.</label>
+                </div>
+                <button type="submit" class="btn-cad">Finalizar cadastro</button>
+                <a href="/login.html">Já tem uma conta Iara? Faça login</a>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/scriptCadastro.js"></script>
+</body>
+</html>

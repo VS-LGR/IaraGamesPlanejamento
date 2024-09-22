@@ -1,0 +1,127 @@
+body {
+    background-color: #F0F2F5;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+#delete-popup .btn {
+    margin: 10px;
+}
+
+#save-button {
+    background-color: #6200EA;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+#save-button.carregando {
+    background-color: #4C00CC;
+}
+
+#save-button.salvo {
+    background-color: #34C759;
+}
+
+#delete-popup {
+    display: flex;
+}
+
+.text-primary {
+    color: #1a73e8;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.text-dark {
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #6200EA;
+    border-color: #6200EA;
+    color: #FFFFFF;
+}
+
+.btn-danger {
+    background-color: #f44336;
+    border-color: #f44336;
+}
+
+.btn-outline-danger {
+    color: #f44336;
+    border-color: #f44336;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
+
+.input-group-text {
+    background-color: #EDEDED;
+    border-radius: 20px;
+}
+
+.input-group-text.bg-light {
+    background-color: #F0F2F5;
+    border-radius: 15px;
+}
+
+.input-group .form-control {
+    border-radius: 15px;
+}
+
+

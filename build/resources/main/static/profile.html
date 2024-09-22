@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="/styleProfile.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+<h1>Perfil do Usuário</h1>
+
+<!-- Exibição dos dados do perfil -->
+<div id="profileData">
+    <p>Nome de usuário: <span id="username"></span></p>
+    <p>Email: <span id="email"></span></p>
+    <p>Nome: <span id="name"></span></p>
+</div>
+
+<!-- Formulário para atualizar o perfil -->
+<form id="updateProfileForm">
+    <input type="text" id="newUsername" placeholder="Novo nome de usuário">
+    <input type="email" id="newEmail" placeholder="Novo email">
+    <input type="text" id="newName" placeholder="Novo Nome">
+    <input type="password" id="newPassword" placeholder="Nova Senha">
+    <button type="submit">Atualizar</button>
+</form>
+
+<!-- Botão para excluir conta -->
+<button id="deleteAccount">Excluir Conta</button>
+
+
+</body>
+
+<script src="/scriptProfile.js"></script>
+</html>
